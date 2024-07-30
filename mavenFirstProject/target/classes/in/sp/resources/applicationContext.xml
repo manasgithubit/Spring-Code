@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+         <bean class = "in.sp.bean.Student" id = "stId">
+                  <property name="name" value = "Manas"></property>
+                  <property name="address" value = "Hyd"></property>
+                  <property name="rollnum" value = "143"></property>
+                  <property name="marks" value = "100.0f"></property>
+         </bean>          
+           
+           
+           
+           
+           
+ </beans>
